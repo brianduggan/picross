@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+#main-container {
+    margin: 0 auto;
+    text-align: center;
+    /* width: 100%; */
+}
+
+#hor-space {
+    display: flex;
+    flex-direction: row;
+}
+
+#hor-clues {
+    width: 25%;
+}
+
+#vert-space {
+    margin-left: 25%;
+}
+
+.game-space {
+    display: inline-block;
+    border: 1.4px dashed black;
+    padding: 0px;
+    margin: 0px;
+}
+
+.current-space {
+    border: 3px solid red;
+}
+
+.correct {
+    background-color: green;
+}
+
+.wrong {
+    background-color: aqua;
+    opacity: 0.3;
+}
+
+.hor-clue {
+    padding: 1%;
+}
