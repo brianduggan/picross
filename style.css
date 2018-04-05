@@ -44,3 +44,37 @@
 .hor-clue {
     padding: 1%;
 }
+
+
+#controls-list {
+    text-align: left;
+    list-style: none;
+}
+
+
+
+/* TURBO BAR */
+#turbo-indicator {
+    width: 100%;
+}
+
+.green-turbo {
+    background-color: green;
+    color: white;
+}
+
+.red-turbo {
+    background-color: red;
+    color: black;;
+}
+
+.yellow-turbo {
+    background-color: yellow;
+    color: black;
+}
+
+.no-turbo {
+    background-color: white;
+    color: black;
+    width: 100%;
+}
