@@ -46,6 +46,20 @@ div[data-current-space="Y"]{
     padding: 1%;
 }
 
+div.vert-clue-col {
+    /* display: table; */
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-bottom: 1%;
+}
+
+div.vert-clue {
+    /* display: table-cell;
+    width: 100%;
+    vertical-align: bottom; */
+}
+
 
 #controls-list {
     text-align: left;
