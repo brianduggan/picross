@@ -33,13 +33,16 @@ div[data-current-space="Y"]{
     border: 3px solid red;
 }
 
-.correct {
+div[data-status="correct"] {
     background-color: green;
 }
 
-.wrong {
+div[data-status="wrong"] {
     background-color: pink;
-    opacity: 0.5;
+}
+
+div[data-status="clear"] {
+    background-color: default;
 }
 
 .hor-clue {
@@ -80,7 +83,7 @@ div.vert-clue {
 
 .red-turbo {
     background-color: red;
-    color: black;;
+    color: black;
 }
 
 .clear-turbo {
